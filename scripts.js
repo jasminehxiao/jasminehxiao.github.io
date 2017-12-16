@@ -216,4 +216,7 @@ $(function(){
 			$('#question5').removeClass('hidden')
 		});
 
+	// SMOOTH SCROLL	
+		$('a').smoothScroll();
+
 });

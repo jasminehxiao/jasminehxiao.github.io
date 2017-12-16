@@ -160,7 +160,9 @@ section.about {
 		padding: 75px 0px;
 		text-align: center;
 	}
+}
 
+.about, .results {
 	.col-third {
 		max-width: 250px;
 
@@ -338,6 +340,34 @@ input[type="text"] {
 	margin-top: 25px;
 }
 
+// RESULTS
+
+.results {
+	padding: 100px 0;
+	background: $color-secondary;
+	text-align: center;
+	height: 100vh;
+
+	.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		height: 100%;
+		position: relative; 
+	}
+
+	p {
+		line-height: 1.5;
+	}
+
+	.flex {
+		align-items: center;
+		justify-content: space-around;
+		padding-top: 75px;
+	}
+}
+
 // FOOTER
 
 footer {
@@ -363,6 +393,10 @@ footer {
 
 		a {
 			color: black;
+		}
+
+		a:hover {
+			color: $color-main;
 		}
 	}
 

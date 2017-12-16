@@ -270,15 +270,15 @@ section.about .wrapper {
   padding: 75px 0px;
   text-align: center; }
 
-section.about .col-third {
+.about .col-third, .results .col-third {
   max-width: 250px; }
-  section.about .col-third img {
+  .about .col-third img, .results .col-third img {
     width: 35%; }
 
-section.about p {
+.about p, .results p {
   line-height: 1.5; }
 
-section.about .flex {
+.about .flex, .results .flex {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -429,6 +429,37 @@ input[type="text"] {
     color: tomato;
     border: 2px solid tomato; }
 
+.results {
+  padding: 100px 0;
+  background: whitesmoke;
+  text-align: center;
+  height: 100vh; }
+  .results .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    position: relative; }
+  .results p {
+    line-height: 1.5; }
+  .results .flex {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 75px; }
+
 footer {
   background: whitesmoke; }
   footer .wrapper {
@@ -450,6 +481,8 @@ footer {
     color: black; }
   footer .footer-info a {
     color: black; }
+  footer .footer-info a:hover {
+    color: tomato; }
   footer h4 {
     border-bottom: 4px solid tomato;
     display: inline-block;
