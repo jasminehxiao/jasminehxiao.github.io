@@ -372,9 +372,12 @@ section.about .wrapper {
     bottom: 100px;
     left: 50px;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 700;
+    color: black; }
     .question .backLink:hover {
       color: tomato; }
+    .question .backLink:visited {
+      color: black; }
   .question .status {
     position: absolute;
     bottom: 0;

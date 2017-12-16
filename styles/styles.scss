@@ -287,9 +287,14 @@ section.about {
 			left: 50px;
 			text-transform: uppercase;
 			font-weight: 700;
+			color: black;
 		
 		&:hover {
 			color: $color-main;
+		}
+
+		&:visited {
+			color: black;
 		}
 	}
 
