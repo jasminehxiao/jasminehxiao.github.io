@@ -286,10 +286,6 @@ section.about .flex {
   justify-content: space-around;
   padding-top: 75px; }
 
-iframe {
-  border: 0;
-  overflow: hidden; }
-
 .question {
   padding: 100px 0;
   background: whitesmoke;
