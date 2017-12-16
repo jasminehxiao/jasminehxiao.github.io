@@ -1,0 +1,461 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size: 1.5rem; }
+
+.wrapper {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0; }
+
+h1, h2 {
+  font-weight: 900; }
+
+h1 {
+  font-size: 7rem;
+  color: whitesmoke;
+  font-family: "Josefin Sans", Helvetica, sans-serif; }
+
+h2 {
+  font-size: 3rem;
+  font-family: "Josefin Sans", Helvetica, sans-serif; }
+
+h4 {
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 2rem;
+  margin-top: 25px;
+  font-family: "Josefin Sans", Helvetica, sans-serif; }
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.col-half {
+  width: 50%;
+  margin: 0;
+  padding: 0; }
+
+.col-third {
+  width: calc(100% / 3);
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px; }
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.3))), url(../assets/quentin-dr-178096.jpg);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../assets/quentin-dr-178096.jpg);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../assets/quentin-dr-178096.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../assets/quentin-dr-178096.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+  header p {
+    color: whitesmoke;
+    font-size: 2rem; }
+
+.content-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 80%; }
+
+.button {
+  padding: 10px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid tomato;
+  border-radius: 100px;
+  color: whitesmoke;
+  background: tomato;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease; }
+  .button:hover {
+    background: transparent;
+    color: tomato;
+    border: 2px solid tomato; }
+
+header nav {
+  padding: 40px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10; }
+  header nav .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    header nav ul li {
+      position: relative; }
+    header nav ul a {
+      margin: 20px;
+      color: whitesmoke; }
+    header nav ul a:hover {
+      border-bottom: 4px solid tomato; }
+  header nav .logo {
+    color: whitesmoke; }
+
+section.about .wrapper {
+  padding: 75px 0px;
+  text-align: center; }
+
+section.about .col-third {
+  max-width: 250px; }
+  section.about .col-third img {
+    width: 35%; }
+
+section.about p {
+  line-height: 1.5; }
+
+section.about .flex {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 75px; }
+
+iframe {
+  border: 0;
+  overflow: hidden; }
+
+.question {
+  padding: 100px 0;
+  background: whitesmoke;
+  text-align: center;
+  height: 100vh; }
+  .question .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    position: relative; }
+  .question .options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 75%; }
+    .question .options img {
+      width: 150px; }
+  .question label > input {
+    visibility: hidden;
+    position: absolute; }
+  .question label > input + img, .question label > input + .diet-option > img {
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+  .question label > input:checked + img, .question label > input:hover + img {
+    border: 5px solid tomato; }
+  .question label > input:checked + .diet-option > img, .question label > input:hover + .diet-option > img {
+    border: 5px solid tomato; }
+    .question label > input:checked + .diet-option > img + span, .question label > input:hover + .diet-option > img + span {
+      visibility: visible;
+      background-color: tomato; }
+  .question .diet-option {
+    position: relative; }
+    .question .diet-option span {
+      position: absolute;
+      top: 73px;
+      left: 0;
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      height: 5px;
+      width: 150px;
+      background-color: none;
+      -webkit-transition: all 0.25s ease;
+      -o-transition: all 0.25s ease;
+      transition: all 0.25s ease; }
+  .question .daysOfWeek label > input + p {
+    display: block;
+    cursor: pointer;
+    border: 5px solid white;
+    border-radius: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+  .question .daysOfWeek label > input:checked + p {
+    border: 5px solid tomato; }
+  .question .daysOfWeek label > input:hover + p {
+    border: 5px solid tomato; }
+  .question .backLink {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    text-transform: uppercase;
+    font-weight: 700; }
+    .question .backLink:hover {
+      color: tomato; }
+  .question .status {
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .question .status .circle {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #e6e6e6; }
+    .question .status .circle:hover {
+      background-color: #ffb9ad; }
+    .question .status .color-main {
+      background-color: tomato; }
+
+.hidden {
+  display: none; }
+
+h3 {
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size: 5rem;
+  margin-bottom: 50px; }
+
+input[type="text"] {
+  padding: 5px;
+  width: 300px;
+  font-size: 3rem;
+  text-align: center; }
+
+.buttonNext {
+  padding: 10px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid tomato;
+  border-radius: 100px;
+  color: whitesmoke;
+  background: tomato;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin-top: 25px; }
+  .buttonNext:hover {
+    background: transparent;
+    color: tomato;
+    border: 2px solid tomato; }
+
+footer {
+  background: whitesmoke; }
+  footer .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: top;
+    -ms-flex-align: top;
+    align-items: top;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 50px 0; }
+    footer .wrapper .logo {
+      color: tomato; }
+  footer .footer-info li {
+    display: block;
+    padding: 7px 0;
+    color: black; }
+  footer .footer-info a {
+    color: black; }
+  footer h4 {
+    border-bottom: 4px solid tomato;
+    display: inline-block;
+    line-height: 1.5;
+    margin-bottom: 10px; }

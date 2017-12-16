@@ -2,22 +2,98 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My cool website</title>
-	<style>
-		main {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
-			font-family: Montserrat, sans-serif;
-			text-transform: uppercase;
-			height: 100vh;
-		}
-	</style>
+	<title>TDOTEATS</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Playfair+Display:400,900" rel="stylesheet">
 </head>
 <body>
-	<main>
-		<h1>My cool site!</h1>
-	</main>
+
+<!-- HEADER -->
+	<header>
+		<nav>
+			<div class="wrapper">
+				<div class="logo">#TDOTEATS</div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="#">Calendar</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="wrapper">
+			<div class="content-container">
+				<h1>Hungry and indecisive?</h1>
+				<p>Take our quiz to filter through the hundreds of options in Toronto.</p>
+				<a class="button" href="quiz.html">Get Started</a>
+			</div>
+		</div>
+	</header>
+
+<!-- ABOUT -->
+	<section class="about" id="about">
+		<div class="wrapper">
+			<h2>We will help you find your best meal in the Greater Toronto Area.</h2>
+			<div class="flex">
+				<div class="col-third">
+					<img src="assets/instagram.svg" alt="">
+					<h5>Visit our Instagram</h5>
+					<p>Check us out on Instagram for our updated list of favourite spots.</p>
+				</div>
+				<div class="col-third">
+					<img src="assets/quiz.svg" alt="">
+					<h5>Take our quiz</h5>
+					<p>Take our quiz and we can help you filter through your options.</p>
+				</div>
+				<div class="col-third">
+					<img src="assets/calendar.svg" alt="">
+					<h5>View our calendar</h5>
+					<p>Browse through our compiled list of the various food events in Toronto.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- WIDGET -->
+
+	<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/da83ff21f3325f71a30ba88c8fbd35d8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="wrapper">
+			<div class="footer-info">
+				<div class="logo">#TDOTEATS</div>
+			</div>
+			<div class="footer-info">
+				<h4>Navigate</h4>
+				<nav>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Quiz</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer-info">
+				<h4>Contact Us</h4>
+				<ul>
+					<li>tdoteats.info@gmail.com</li>
+					<li>1 647-883-8335</li>
+				</ul>
+			</div>
+			<div class="footer-info">
+				<h4>Follow Us</h4>
+				<ul>
+					<li>@tdoteats</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+<script src="//lightwidget.com/widgets/lightwidget.js"></script>
+
 </html>

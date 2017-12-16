@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz // TDOTEATS</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Playfair+Display:400,900" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- QUIZ -->
+	<section>
+		<form action="" method="GET" class="quiz" autocomplete="off" name="quiz">
+
+			<!-- START -->
+			<section class="question" id="start">
+				<div class="wrapper">
+					<h3>Ready to start?</h3>
+					<span class="buttonNext">Start</span>
+					<span><a class="backLink" href="index.html">Back</a></span>
+				</div>
+			</section>
+
+			<!-- NAME -->
+			<section class="question hidden" id="question1">
+				<div class="wrapper">
+					<h3>What's your first name?</h3>
+					<input type="text" class="name" name="name">
+					<span class="buttonNext">Next</span>
+					<div class="status">
+						<span class="circle color-main"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- OCCASION -->
+			<section class="question hidden" id="question2">
+				<div class="wrapper">
+					<h3>Who will you be dining with?</h3>
+					<div class="options">
+						<label for="small">
+							<input type="radio" name="partySize" value="small" id="small">
+							<img src="assets/partySmall.svg" alt="">
+							<p>One other person</p>
+						</label>
+						<label for="medium">
+							<input type="radio" name="partySize" value="medium" id="medium">
+							<img src="assets/partyMedium.svg" alt="">
+							<p>A few friends</p>
+						</label>
+						<label for="large">
+							<input type="radio" name="partySize" value="large" id="large">
+							<img src="assets/partyLarge.svg" alt="">
+							<p>A large group</p>
+						</label>
+					</div>
+					<span class="buttonNext">Next</span>
+					<div class="status">
+						<span class="circle"></span>
+						<span class="circle color-main"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+					</div>
+				</div>
+			</section>
+
+			<!-- BUDGET -->
+			<section class="question hidden" id="question3">
+				<div class="wrapper">
+					<h3>What’s your budget?</h3>
+					<div class="options">
+						<label for="budgetCheap">
+							<input type="radio" name="budget" value="budgetCheap" id="budgetCheap">
+							<img src="assets/budgetCheap.svg" alt="">
+							<p>Cheap (<$25)</p>
+						</label>
+						
+						<label for="budgetModerate">
+							<input type="radio" name="budget" value="budgetModerate" id="budgetModerate">
+							<img src="assets/budgetModerate.svg" alt="">
+							<p>Moderate ($25-$50)</p>
+						</label>
+						
+						<label for="budgetBougie">
+							<input type="radio" name="budget" value="budgetBougie" id="budgetBougie">
+							<img src="assets/budgetBougie.svg" alt="">
+							<p>Bougie ($50+)</p>
+						</label>
+					</div>
+					<span class="buttonNext">Next</span>
+					<div class="status">
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle color-main"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+					</div>
+				</div>
+			</section>
+
+			<!-- LOCATION -->
+			<section class="question hidden" id="question4">
+				<div class="wrapper">
+					<h3>Where can you go?</h3>
+					<div class="options">
+						<label for="westEnd">
+							<input type="checkbox" name="location" value="westEnd" id="westEnd">
+							<img src="assets/partySmall.svg" alt="">
+							<p>West-End</p>
+						</label>
+						<label for="centralDT">
+							<input type="checkbox" id="centralDT" name="location" value="centralDT">
+							<img src="assets/partySmall.svg" alt="">
+							<p>Central Downtown</p>
+						</label>
+						<label for="eastEnd">
+							<input type="checkbox" name="location" value="eastEnd" id="eastEnd">
+							<img src="assets/partySmall.svg" alt="">
+							<p>East-End</p>
+						</label>
+					</div>
+					<span class="buttonNext">Next</span>
+					<div class="status">
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle color-main"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+					</div>
+				</div>
+			</section>
+
+			<!-- DIETARY RESTRICTONS -->
+			<section class="question hidden" id="question5">
+				<div class="wrapper">
+					<h3>Any dietary restrictions?</h3>
+					<div class="options">
+						<label for="meat">
+							<input type="checkbox" id="meat" name="diet" value="meat">
+							<div class="diet-option">
+								<img src="assets/dietMeat.svg" alt="">
+								<span></span>
+							</div>
+							<p>Meat</p>
+						</label>
+						<label for="fish">
+							<input type="checkbox" id="fish" name="diet" value="fish">
+							<div class="diet-option">
+								<img src="assets/dietFish.svg" alt="">
+								<span></span>
+							</div>
+							<p>Fish</p>
+						</label>
+						<label for="dairy">
+							<input type="checkbox" id="dairy" name="diet" value="dairy">
+							<div class="diet-option">
+								<img src="assets/dietDairy.svg" alt="">
+								<span></span>
+							</div>
+							<p>Dairy</p>
+						</label>
+						<label for="gluten">
+							<input type="checkbox" id="gluten" name="diet" value="gluten">
+							<div class="diet-option">
+								<img src="assets/dietGluten.svg" alt="">
+								<span></span>
+							</div>
+							<p>Gluten</p>
+						</label>
+					</div>
+					<span class="buttonNext">Next</span>
+					<div class="status">
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle color-main"></span>
+						<span class="circle"></span>
+					</div>
+				</div>
+			</section>
+
+			<!-- WHEN CAN U GO-->
+			<section class="question hidden" id="question6">
+				<div class="wrapper daysOfWeek">
+					<h3>When can you go?</h3>
+					<div class="options">
+						<label for="monday">
+							<input type="checkbox" id="monday" name="days" value="monday">
+							<p>Mon</p>
+						</label>
+						<label for="tuesday">
+							<input type="checkbox" id="tuesday" name="days" value="tuesday">
+							<p>Tue</p>
+						</label>
+						<label for="wednesday">
+							<input type="checkbox" id="wednesday" name="days" value="wednesday">
+							<p>Wed</p>
+						</label>
+						<label for="thursday">
+							<input type="checkbox" id="thursday" name="days" value="thursday">
+							<p>Thu</p>
+						</label>
+						<label for="friday">
+							<input type="checkbox" id="friday" name="days" value="friday">
+							<p>Fri</p>
+						</label>
+						<label for="saturday">
+							<input type="checkbox" id="saturday" name="days" value="saturday">
+							<p>Sat</p>
+						</label>
+						<label for="sunday">
+							<input type="checkbox" id="sunday" name="days" value="sunday">
+							<p>Sun</p>
+						</label>
+					</div>
+					<button class="buttonNext">Submit</button>
+					<div class="status">
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle"></span>
+						<span class="circle color-main"></span>
+					</div>
+				</div>
+			</section>
+			<!-- <section class="question hidden" id="question3">
+				<div class="wrapper">
+					<h3>What’s the ambience?</h3>
+					<div class="options">
+						<label for="occasionDate">Romantic</label>
+						<input type="radio" name="occasion" value="occasionDate" id="occasionDate">
+						<label for="occasionCasual">Casual catch up</label>
+						<input type="radio" name="occasion" value="occasionCasual" id="occasionCasual">
+						<label for="occasionBday">Birthday</label>
+						<input type="radio" name="occasion" value="occasionBday" id="occasionBday">
+					</div>
+					<span class="buttonNext" href="#question4">Next</span>
+				</div>
+			</section> -->
+		</form>
+	</section>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+
+</html>
